@@ -7,7 +7,7 @@ var async = require('async');
 function snap() {
 
     // Read project Bower file
-    bowerJson.read('./bower.json', function (err, json) {
+    bowerJson.read('./bower.json', {validate: false}, function (err, json) {
         if (err) {
             console.error('There was an error reading the file');
             console.error(err.message);
