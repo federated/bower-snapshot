@@ -1,0 +1,28 @@
+{
+  "name": "bower-snapshot",
+  "version": "1.0.0",
+  "description": "A node module that persists a snapshot of installed Bower package versions to your bower.json file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/federated/bower-snapshot.git"
+  },
+  "keywords": [
+    "bower",
+    "versioning"
+  ],
+  "author": "Keith Tingle <keith.tingle@federated-software.com> (http://federated-software.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/federated/bower-snapshot/issues"
+  },
+  "homepage": "https://github.com/federated/bower-snapshot#readme",
+  "dependencies": {
+    "async": "^1.4.2",
+    "bower-json": "^0.6.0",
+    "graceful-fs": "^4.1.2"
+  }
+}
