@@ -61,4 +61,4 @@ function snap() {
     });
 }
 
-module.exports = read;
+module.exports = snap;
